@@ -1,0 +1,5 @@
+client Id : DjacqRjEvdZMthlfwOMsdIOa
+
+client secrete key : e3KDbZTgj89vgPhMjdvEaFrE,rSqX,csHooIn_5S_34o12g_,mC-Mw.G+g4wsP8oOMl,1FqxC_C_SYFAg47Qjs2xxg3Kg1iib70GS7FqpyE6mbG2z866S-.n7KGt3pWs
+
+token : AstraCS:DjacqRjEvdZMthlfwOMsdIOa:f2ad9ed307dadd38c88424adf77fd33d33d8b3ae9fe45aabf0d2ab045e58c070

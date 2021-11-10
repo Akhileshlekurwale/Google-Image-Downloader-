@@ -1,0 +1,93 @@
+2021-11-09 11:50:13,810:ERROR:Advance Image Downloader:(Scrapper.py(__init__) - argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 30, in __init__
+    self.browser = webdriver.Chrome(executable_path= os.environ.get("CHROMEDRIVER_PATH"),chrome_options=chrome_options)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\subprocess.py", line 1148, in _execute_child
+    args = list2cmdline(args)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\subprocess.py", line 555, in list2cmdline
+    needquote = (" " in arg) or ("\t" in arg) or not arg
+TypeError: argument of type 'NoneType' is not iterable
+2021-11-09 11:53:12,947:ERROR:Advance Image Downloader:(Scrapper.py(__init__) - argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 30, in __init__
+    self.browser = webdriver.Chrome(executable_path= os.environ.get("CHROMEDRIVER_PATH"),chrome_options=chrome_options)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\subprocess.py", line 1148, in _execute_child
+    args = list2cmdline(args)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\subprocess.py", line 555, in list2cmdline
+    needquote = (" " in arg) or ("\t" in arg) or not arg
+TypeError: argument of type 'NoneType' is not iterable
+2021-11-09 12:17:39,919:ERROR:Advance Image Downloader:Scrapper.py - fetch_thumbnails has exceptionobject of type 'WebElement' has no len()
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 128, in fetch_thumbnails
+    no_thumbnail_image = len(thumbnail_image)
+TypeError: object of type 'WebElement' has no len()
+2021-11-09 12:29:21,317:ERROR:Advance Image Downloader:Scrapper.py - fetch_thumbnails has exceptionobject of type 'WebElement' has no len()
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 128, in fetch_thumbnails
+    no_thumbnail_image = len(thumbnail_image)
+TypeError: object of type 'WebElement' has no len()
+2021-11-10 13:11:45,634:ERROR:Advance Image Downloader:Scrapper.py - fetch_thumbnails has exceptionobject of type 'WebElement' has no len()
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 128, in fetch_thumbnails
+    no_thumbnail_image = len(thumbnail_image)
+TypeError: object of type 'WebElement' has no len()
+2021-11-10 13:14:20,604:ERROR:Advance Image Downloader:Scrapper.py - fetch_thumbnails has exceptionobject of type 'WebElement' has no len()
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 128, in fetch_thumbnails
+    no_thumbnail_image = len(thumbnail_image)
+TypeError: object of type 'WebElement' has no len()
+2021-11-10 14:03:03,791:ERROR:Advance Image Downloader:send_notification has exception(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials e24sm20915991pfn.8 - gsmtp')
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Email.py", line 37, in send_notification
+    server.login(self.email, self.password)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials e24sm20915991pfn.8 - gsmtp')
+2021-11-10 14:03:26,513:ERROR:Advance Image Downloader:Scrapper.py - fetch_thumbnails has exceptionobject of type 'WebElement' has no len()
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Scrapper.py", line 128, in fetch_thumbnails
+    no_thumbnail_image = len(thumbnail_image)
+TypeError: object of type 'WebElement' has no len()
+2021-11-10 14:03:30,666:ERROR:Advance Image Downloader:send_notification has exception(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g17sm3825960pfv.136 - gsmtp')
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Helper.py", line 129, in helper_download
+    raise Exception('not allowed to access or link has expired')
+Exception: not allowed to access or link has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Helper.py", line 34, in helper_image
+    self.helper_download(email, keyword, req_id, schedule_job, cassandra)
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Helper.py", line 133, in helper_download
+    raise Exception(e)
+Exception: not allowed to access or link has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DataScience\iNeuron\Projects\Internship_Projects\Advance Image Downloader\Documentation\Email.py", line 37, in send_notification
+    server.login(self.email, self.password)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Akhilesh\Anaconda3\envs\Advance Image Downloader\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g17sm3825960pfv.136 - gsmtp')

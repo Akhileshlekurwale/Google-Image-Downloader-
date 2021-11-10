@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+			<img src="ineuron-logo.png" alt="iNeuron" >
+			<h2> Image Downloader </h2>
+			<form action="/job_submitted" method="POST">
+			<!-- Search Query -->
+            <div class="input-group">
+                <span class="input-group-text" id="keyword">
+                    Search Query
+                </span>
+                <input type="text" class="form-control" placeholder="Enter the Search Query" name="keyword" required>
+            </div>
+			
+			<!-- Date and Time -->
+            <div class="input-group">
+                <span class="input-group-text">
+                    Date
+                </span>
+                <input type="date" id='txtDate' class="form-control" name="date" required>
+                <span class="input-group-text"
+                    style="margin-left: 10px; border-top-left-radius: 4px; border-bottom-left-radius: 4px;">
+                    Time
+                </span>
+                <input type="time" id='txtTime' class="form-control" name="time" required>
+            </div>
+			<!-- Email Address -->
+            <div class="input-group">
+                <span class="input-group-text">
+                    Email
+                </span>
+                <input type="email" class="form-control" placeholder="Enter your Email" name="email" required>
+            </div>
+			
+            <!-- Number of Images -->
+            <div class="input-group">
+                <span class="input-group-text">Number of Images</span>
+                <input type="number" class="form-control" aria-label="Number input with dropdown button" name="images" min="1" max="500" required>
+            </div>
+			
+			<!-- Submit Button -->
+            <div class="input-group">
+                <input class="btn btn-grad" type="submit" value="Submit">
+            </div>
+			
